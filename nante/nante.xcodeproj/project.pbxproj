@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61B00FB2C5205BC003C011E /* nanteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B00FA2C5205BC003C011E /* nanteApp.swift */; };
+		E61B00FD2C5205BC003C011E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B00FC2C5205BC003C011E /* ContentView.swift */; };
+		E61B00FF2C5205BC003C011E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B00FE2C5205BC003C011E /* Item.swift */; };
+		E61B01012C5205BE003C011E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61B01002C5205BE003C011E /* Assets.xcassets */; };
+		E61B01042C5205BE003C011E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61B01032C5205BE003C011E /* Preview Assets.xcassets */; };
+		E61B010E2C5205BE003C011E /* nanteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B010D2C5205BE003C011E /* nanteTests.swift */; };
+		E61B01182C5205BE003C011E /* nanteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B01172C5205BE003C011E /* nanteUITests.swift */; };
+		E61B011A2C5205BE003C011E /* nanteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B01192C5205BE003C011E /* nanteUITestsLaunchTests.swift */; };
+		E61B012F2C5207D6003C011E /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61B012E2C5207D6003C011E /* Vision.framework */; };
+		E61B01312C520824003C011E /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61B01302C520824003C011E /* Speech.framework */; };
+		E61B01342C522795003C011E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E61B01332C522795003C011E /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E61B010A2C5205BE003C011E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61B00EF2C5205BC003C011E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61B00F62C5205BC003C011E;
+			remoteInfo = nante;
+		};
+		E61B01142C5205BE003C011E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61B00EF2C5205BC003C011E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61B00F62C5205BC003C011E;
+			remoteInfo = nante;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E61B00F72C5205BC003C011E /* nante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nante.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61B00FA2C5205BC003C011E /* nanteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanteApp.swift; sourceTree = "<group>"; };
+		E61B00FC2C5205BC003C011E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E61B00FE2C5205BC003C011E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E61B01002C5205BE003C011E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61B01032C5205BE003C011E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E61B01092C5205BE003C011E /* nanteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61B010D2C5205BE003C011E /* nanteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanteTests.swift; sourceTree = "<group>"; };
+		E61B01132C5205BE003C011E /* nanteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nanteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61B01172C5205BE003C011E /* nanteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanteUITests.swift; sourceTree = "<group>"; };
+		E61B01192C5205BE003C011E /* nanteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E61B012E2C5207D6003C011E /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		E61B01302C520824003C011E /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		E61B01332C522795003C011E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61B00F42C5205BC003C011E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61B012F2C5207D6003C011E /* Vision.framework in Frameworks */,
+				E61B01312C520824003C011E /* Speech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61B01062C5205BE003C011E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61B01102C5205BE003C011E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E61B00EE2C5205BC003C011E = {
+			isa = PBXGroup;
+			children = (
+				E61B00F92C5205BC003C011E /* nante */,
+				E61B010C2C5205BE003C011E /* nanteTests */,
+				E61B01162C5205BE003C011E /* nanteUITests */,
+				E61B00F82C5205BC003C011E /* Products */,
+				E61B012D2C5207D6003C011E /* Frameworks */,
+				F8209AAFABCBADA0BBFE851D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E61B00F82C5205BC003C011E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61B00F72C5205BC003C011E /* nante.app */,
+				E61B01092C5205BE003C011E /* nanteTests.xctest */,
+				E61B01132C5205BE003C011E /* nanteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61B00F92C5205BC003C011E /* nante */ = {
+			isa = PBXGroup;
+			children = (
+				E61B00FA2C5205BC003C011E /* nanteApp.swift */,
+				E61B00FC2C5205BC003C011E /* ContentView.swift */,
+				E61B00FE2C5205BC003C011E /* Item.swift */,
+				E61B01002C5205BE003C011E /* Assets.xcassets */,
+				E61B01332C522795003C011E /* Localizable.xcstrings */,
+				E61B01022C5205BE003C011E /* Preview Content */,
+			);
+			path = nante;
+			sourceTree = "<group>";
+		};
+		E61B01022C5205BE003C011E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E61B01032C5205BE003C011E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E61B010C2C5205BE003C011E /* nanteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E61B010D2C5205BE003C011E /* nanteTests.swift */,
+			);
+			path = nanteTests;
+			sourceTree = "<group>";
+		};
+		E61B01162C5205BE003C011E /* nanteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E61B01172C5205BE003C011E /* nanteUITests.swift */,
+				E61B01192C5205BE003C011E /* nanteUITestsLaunchTests.swift */,
+			);
+			path = nanteUITests;
+			sourceTree = "<group>";
+		};
+		E61B012D2C5207D6003C011E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E61B01302C520824003C011E /* Speech.framework */,
+				E61B012E2C5207D6003C011E /* Vision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8209AAFABCBADA0BBFE851D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61B00F62C5205BC003C011E /* nante */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61B011D2C5205BE003C011E /* Build configuration list for PBXNativeTarget "nante" */;
+			buildPhases = (
+				E61B00F32C5205BC003C011E /* Sources */,
+				E61B00F42C5205BC003C011E /* Frameworks */,
+				E61B00F52C5205BC003C011E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nante;
+			productName = nante;
+			productReference = E61B00F72C5205BC003C011E /* nante.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E61B01082C5205BE003C011E /* nanteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61B01202C5205BE003C011E /* Build configuration list for PBXNativeTarget "nanteTests" */;
+			buildPhases = (
+				E61B01052C5205BE003C011E /* Sources */,
+				E61B01062C5205BE003C011E /* Frameworks */,
+				E61B01072C5205BE003C011E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61B010B2C5205BE003C011E /* PBXTargetDependency */,
+			);
+			name = nanteTests;
+			productName = nanteTests;
+			productReference = E61B01092C5205BE003C011E /* nanteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E61B01122C5205BE003C011E /* nanteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61B01232C5205BE003C011E /* Build configuration list for PBXNativeTarget "nanteUITests" */;
+			buildPhases = (
+				E61B010F2C5205BE003C011E /* Sources */,
+				E61B01102C5205BE003C011E /* Frameworks */,
+				E61B01112C5205BE003C011E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61B01152C5205BE003C011E /* PBXTargetDependency */,
+			);
+			name = nanteUITests;
+			productName = nanteUITests;
+			productReference = E61B01132C5205BE003C011E /* nanteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61B00EF2C5205BC003C011E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E61B00F62C5205BC003C011E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E61B01082C5205BE003C011E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E61B00F62C5205BC003C011E;
+					};
+					E61B01122C5205BE003C011E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E61B00F62C5205BC003C011E;
+					};
+				};
+			};
+			buildConfigurationList = E61B00F22C5205BC003C011E /* Build configuration list for PBXProject "nante" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				fr,
+				it,
+				ko,
+			);
+			mainGroup = E61B00EE2C5205BC003C011E;
+			productRefGroup = E61B00F82C5205BC003C011E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61B00F62C5205BC003C011E /* nante */,
+				E61B01082C5205BE003C011E /* nanteTests */,
+				E61B01122C5205BE003C011E /* nanteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61B00F52C5205BC003C011E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61B01042C5205BE003C011E /* Preview Assets.xcassets in Resources */,
+				E61B01012C5205BE003C011E /* Assets.xcassets in Resources */,
+				E61B01342C522795003C011E /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61B01072C5205BE003C011E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61B01112C5205BE003C011E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61B00F32C5205BC003C011E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61B00FD2C5205BC003C011E /* ContentView.swift in Sources */,
+				E61B00FF2C5205BC003C011E /* Item.swift in Sources */,
+				E61B00FB2C5205BC003C011E /* nanteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61B01052C5205BE003C011E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61B010E2C5205BE003C011E /* nanteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61B010F2C5205BE003C011E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61B01182C5205BE003C011E /* nanteUITests.swift in Sources */,
+				E61B011A2C5205BE003C011E /* nanteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E61B010B2C5205BE003C011E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61B00F62C5205BC003C011E /* nante */;
+			targetProxy = E61B010A2C5205BE003C011E /* PBXContainerItemProxy */;
+		};
+		E61B01152C5205BE003C011E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61B00F62C5205BC003C011E /* nante */;
+			targetProxy = E61B01142C5205BE003C011E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E61B011B2C5205BE003C011E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E61B011C2C5205BE003C011E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61B011E2C5205BE003C011E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nante/Preview Content\"";
+				DEVELOPMENT_TEAM = H2AFQJ954V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.okamoto.nante;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E61B011F2C5205BE003C011E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nante/Preview Content\"";
+				DEVELOPMENT_TEAM = H2AFQJ954V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.okamoto.nante;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E61B01212C5205BE003C011E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2AFQJ954V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.okamoto.nanteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nante";
+			};
+			name = Debug;
+		};
+		E61B01222C5205BE003C011E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2AFQJ954V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.okamoto.nanteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nante.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nante";
+			};
+			name = Release;
+		};
+		E61B01242C5205BE003C011E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2AFQJ954V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.okamoto.nanteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nante;
+			};
+			name = Debug;
+		};
+		E61B01252C5205BE003C011E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2AFQJ954V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuki.okamoto.nanteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nante;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61B00F22C5205BC003C011E /* Build configuration list for PBXProject "nante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61B011B2C5205BE003C011E /* Debug */,
+				E61B011C2C5205BE003C011E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61B011D2C5205BE003C011E /* Build configuration list for PBXNativeTarget "nante" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61B011E2C5205BE003C011E /* Debug */,
+				E61B011F2C5205BE003C011E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61B01202C5205BE003C011E /* Build configuration list for PBXNativeTarget "nanteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61B01212C5205BE003C011E /* Debug */,
+				E61B01222C5205BE003C011E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61B01232C5205BE003C011E /* Build configuration list for PBXNativeTarget "nanteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61B01242C5205BE003C011E /* Debug */,
+				E61B01252C5205BE003C011E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E61B00EF2C5205BC003C011E /* Project object */;
+}

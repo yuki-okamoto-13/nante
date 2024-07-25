@@ -120,6 +120,8 @@ class JapaneseSpeechRecognizerWithTranslation: ObservableObject {
 
         do {
             recognitionTask?.cancel()
+            transcript = ""
+            translatedText = ""
 
             if audioEngine == nil {
                 audioEngine = AVAudioEngine()
@@ -160,6 +162,7 @@ class JapaneseSpeechRecognizerWithTranslation: ObservableObject {
         audioEngine?.stop()
         audioEngine?.inputNode.removeTap(onBus: 0)
         recognitionRequest?.endAudio()
+        translate(transcript)
     }
 }
 

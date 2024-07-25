@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A120AA064701D85AABBBE3D /* Pods_nante_nanteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5143E38A3E6054B1A0F44 /* Pods_nante_nanteUITests.framework */; };
+		6F711CA23B34F02198302E56 /* Pods_nanteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894F51950767CCBB2890D50E /* Pods_nanteTests.framework */; };
+		9825079C8CA201C46E7DDE7E /* Pods_nante.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAD03BFB2360A3C6DD23548 /* Pods_nante.framework */; };
 		E61B00FB2C5205BC003C011E /* nanteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B00FA2C5205BC003C011E /* nanteApp.swift */; };
 		E61B00FD2C5205BC003C011E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B00FC2C5205BC003C011E /* ContentView.swift */; };
 		E61B00FF2C5205BC003C011E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B00FE2C5205BC003C011E /* Item.swift */; };
@@ -38,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D09D8597640FAD5C38202E0 /* Pods-nante.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nante.debug.xcconfig"; path = "Target Support Files/Pods-nante/Pods-nante.debug.xcconfig"; sourceTree = "<group>"; };
+		14499DF92B2D3166962021AA /* Pods-nanteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanteTests.release.xcconfig"; path = "Target Support Files/Pods-nanteTests/Pods-nanteTests.release.xcconfig"; sourceTree = "<group>"; };
+		17E5143E38A3E6054B1A0F44 /* Pods_nante_nanteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nante_nanteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AB0A76AA9E244963C1BC00 /* Pods-nante-nanteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nante-nanteUITests.release.xcconfig"; path = "Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D85CDE02EC90AE14E801108 /* Pods-nanteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nanteTests.debug.xcconfig"; path = "Target Support Files/Pods-nanteTests/Pods-nanteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CAD03BFB2360A3C6DD23548 /* Pods_nante.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nante.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8177D7EC770F6862AEE910EF /* Pods-nante-nanteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nante-nanteUITests.debug.xcconfig"; path = "Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		894F51950767CCBB2890D50E /* Pods_nanteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nanteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F0312C54C34DDB8B2E3AAA /* Pods-nante.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nante.release.xcconfig"; path = "Target Support Files/Pods-nante/Pods-nante.release.xcconfig"; sourceTree = "<group>"; };
 		E61B00F72C5205BC003C011E /* nante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nante.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61B00FA2C5205BC003C011E /* nanteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanteApp.swift; sourceTree = "<group>"; };
 		E61B00FC2C5205BC003C011E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +73,7 @@
 			files = (
 				E61B012F2C5207D6003C011E /* Vision.framework in Frameworks */,
 				E61B01312C520824003C011E /* Speech.framework in Frameworks */,
+				9825079C8CA201C46E7DDE7E /* Pods_nante.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F711CA23B34F02198302E56 /* Pods_nanteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A120AA064701D85AABBBE3D /* Pods_nante_nanteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +161,9 @@
 			children = (
 				E61B01302C520824003C011E /* Speech.framework */,
 				E61B012E2C5207D6003C011E /* Vision.framework */,
+				6CAD03BFB2360A3C6DD23548 /* Pods_nante.framework */,
+				17E5143E38A3E6054B1A0F44 /* Pods_nante_nanteUITests.framework */,
+				894F51950767CCBB2890D50E /* Pods_nanteTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +171,12 @@
 		F8209AAFABCBADA0BBFE851D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				0D09D8597640FAD5C38202E0 /* Pods-nante.debug.xcconfig */,
+				E0F0312C54C34DDB8B2E3AAA /* Pods-nante.release.xcconfig */,
+				8177D7EC770F6862AEE910EF /* Pods-nante-nanteUITests.debug.xcconfig */,
+				23AB0A76AA9E244963C1BC00 /* Pods-nante-nanteUITests.release.xcconfig */,
+				5D85CDE02EC90AE14E801108 /* Pods-nanteTests.debug.xcconfig */,
+				14499DF92B2D3166962021AA /* Pods-nanteTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E61B011D2C5205BE003C011E /* Build configuration list for PBXNativeTarget "nante" */;
 			buildPhases = (
+				B4D9F6A20A067DB9A7276EB4 /* [CP] Check Pods Manifest.lock */,
 				E61B00F32C5205BC003C011E /* Sources */,
 				E61B00F42C5205BC003C011E /* Frameworks */,
 				E61B00F52C5205BC003C011E /* Resources */,
+				F4D20C881DDD7AA8CA3FB1A5 /* [CP] Embed Pods Frameworks */,
+				F6168E9BF4A95C943837C47B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E61B01202C5205BE003C011E /* Build configuration list for PBXNativeTarget "nanteTests" */;
 			buildPhases = (
+				1F4947E8858F3703AD299081 /* [CP] Check Pods Manifest.lock */,
 				E61B01052C5205BE003C011E /* Sources */,
 				E61B01062C5205BE003C011E /* Frameworks */,
 				E61B01072C5205BE003C011E /* Resources */,
@@ -199,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E61B01232C5205BE003C011E /* Build configuration list for PBXNativeTarget "nanteUITests" */;
 			buildPhases = (
+				C529331AB74DF752606C8B72 /* [CP] Check Pods Manifest.lock */,
 				E61B010F2C5205BE003C011E /* Sources */,
 				E61B01102C5205BE003C011E /* Frameworks */,
 				E61B01112C5205BE003C011E /* Resources */,
+				0C6DD9DFB86D46303D328DFD /* [CP] Embed Pods Frameworks */,
+				9F4115CBF7AE5D16E3D81E5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +317,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C6DD9DFB86D46303D328DFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F4947E8858F3703AD299081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nanteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4115CBF7AE5D16E3D81E5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nante-nanteUITests/Pods-nante-nanteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D9F6A20A067DB9A7276EB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nante-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C529331AB74DF752606C8B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nante-nanteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D20C881DDD7AA8CA3FB1A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante/Pods-nante-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante/Pods-nante-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nante/Pods-nante-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6168E9BF4A95C943837C47B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante/Pods-nante-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nante/Pods-nante-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nante/Pods-nante-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E61B00F32C5205BC003C011E /* Sources */ = {
@@ -452,7 +620,9 @@
 		};
 		E61B011E2C5205BE003C011E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D09D8597640FAD5C38202E0 /* Pods-nante.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +630,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nante/Preview Content\"";
 				DEVELOPMENT_TEAM = H2AFQJ954V;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
@@ -486,7 +657,9 @@
 		};
 		E61B011F2C5205BE003C011E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F0312C54C34DDB8B2E3AAA /* Pods-nante.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +667,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nante/Preview Content\"";
 				DEVELOPMENT_TEAM = H2AFQJ954V;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
@@ -520,6 +694,7 @@
 		};
 		E61B01212C5205BE003C011E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D85CDE02EC90AE14E801108 /* Pods-nanteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -539,6 +714,7 @@
 		};
 		E61B01222C5205BE003C011E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14499DF92B2D3166962021AA /* Pods-nanteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -558,6 +734,7 @@
 		};
 		E61B01242C5205BE003C011E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8177D7EC770F6862AEE910EF /* Pods-nante-nanteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -576,6 +753,7 @@
 		};
 		E61B01252C5205BE003C011E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AB0A76AA9E244963C1BC00 /* Pods-nante-nanteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

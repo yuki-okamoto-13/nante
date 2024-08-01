@@ -1,89 +1,58 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Start" : {
-      "extractionState" : "manual",
+    "Language" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Démarrage"
+            "value" : "Langue"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inizio"
+            "value" : "Lingua"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "開始"
+            "value" : "言語"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "시작"
+            "value" : "언어"
           }
         }
       }
     },
-    "Start speech recognition" : {
-      "extractionState" : "manual",
+    "Loading..." : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Démarrer la reconnaissance vocale"
+            "value" : "Chargement..."
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avviare il riconoscimento vocale"
+            "value" : "Caricamento..."
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "音声認識を開始する"
+            "value" : "Loading..."
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "음성인식 시작하기"
-          }
-        }
-      }
-    },
-    "Stop" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Arrêter"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fermarsi"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "停止"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "중지"
+            "value" : "로드 중..."
           }
         }
       }

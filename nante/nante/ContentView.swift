@@ -107,7 +107,7 @@ struct ContentView: View {
                     }
                 }
             }.onAppear {
-                viewModel.requestAuthorization()
+                viewModel.onAppear()
             }
         }
     }

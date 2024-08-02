@@ -11,12 +11,33 @@ import AVFoundation
 class NanteSpeechSynthesizer: NSObject, ObservableObject {
     @Published var isPlaying = false
 
-    private let synthesizer = AVSpeechSynthesizer()
+    @Published private var synthesizer = AVSpeechSynthesizer()
     private var voice: AVSpeechSynthesisVoice?
+
+    func requestAuthorization() {
+        AVSpeechSynthesizer.requestPersonalVoiceAuthorization { status in
+            switch status {
+            case .authorized: break;
+            case .denied: break;
+            case .notDetermined: break;
+            case .unsupported: break;
+            @unknown default: break;
+            }
+        }
+    }
 
     func configure(language: Language) {
         synthesizer.delegate = self
-        voice = AVSpeechSynthesisVoice.init(language: language.identifier)
+
+        let personalVoice = AVSpeechSynthesisVoice.speechVoices().filter { speechVoice in
+            speechVoice.voiceTraits.contains(.isPersonalVoice) && speechVoice.language == language.identifier
+        }.first
+
+        if let personalVoice {
+            voice = personalVoice
+        } else {
+            voice = AVSpeechSynthesisVoice.init(language: language.identifier)
+        }
     }
 
     func play(text: String) {
@@ -41,8 +62,7 @@ class NanteSpeechSynthesizer: NSObject, ObservableObject {
 }
 
 extension NanteSpeechSynthesizer: AVSpeechSynthesizerDelegate {
-    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer,
-                           didFinish utterance: AVSpeechUtterance) {
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
         isPlaying = false
     }
 }

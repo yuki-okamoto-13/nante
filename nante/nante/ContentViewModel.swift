@@ -104,8 +104,13 @@ class ContentViewModel: ObservableObject {
         languages.filter { $0 != selectedSpeechRecognitionLanguage }
     }
 
+    func onAppear() {
+        requestAuthorization()
+    }
+
     func requestAuthorization() {
         speechRecognizer.requestAuthorization()
+        speechSynthesizer.requestAuthorization()
     }
 
     func startTranscribing() {
